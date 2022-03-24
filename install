@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+ 
+# cd into same directory this script is in
+BASEDIR=$(dirname $0) 
+cd $BASEBIR
+
+# symlink file to .bashrc in homefolder
+ln -s ${PWD}/bashrc ~/.bashrc
